@@ -10,7 +10,7 @@ export default function AuthoritySection() {
           {/* Tablet: foto vertical, cortada nas laterais, centralizada */}
           <div className="hidden md:block lg:hidden w-1/2 aspect-[3/4] self-start rounded-3xl overflow-hidden relative">
             <Image
-              src="/images/DRA FOTO 01.webp"
+              src="/images/dra-verlaine-authority.webp"
               alt="Dra. Verlaine Micali"
               fill
               className="object-cover object-top"

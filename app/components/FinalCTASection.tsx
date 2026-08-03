@@ -11,10 +11,16 @@ export default function FinalCTASection() {
         <div className="flex flex-col md:flex-row items-start gap-10 md:gap-16 mb-6 md:mb-16">
           <div className="hidden md:block w-1/2 aspect-[139.5/197.25] rounded-3xl overflow-hidden relative">
             <Image
+              src="/images/dra-verlaine-mobile.webp"
+              alt="Dra. Verlaine Micali"
+              fill
+              className="object-cover object-top block lg:hidden"
+            />
+            <Image
               src="/images/FOTO DRA 02.webp"
               alt="Dra. Verlaine Micali"
               fill
-              className="object-cover object-top"
+              className="object-cover object-top hidden lg:block"
             />
           </div>
 
@@ -32,7 +38,7 @@ export default function FinalCTASection() {
 
               <div className="block md:hidden w-full h-96 rounded-3xl overflow-hidden relative mb-8">
                 <Image
-                  src="/images/FOTO DRA 02.webp"
+                  src="/images/dra-verlaine-mobile.webp"
                   alt="Dra. Verlaine Micali"
                   fill
                   className="object-cover object-top"

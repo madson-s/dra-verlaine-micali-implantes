@@ -29,11 +29,18 @@ export default function HeroSection() {
     >
       <div style={{ position: "absolute", inset: 0, overflow: "hidden", zIndex: 0 }}>
         <Image
+          src="/images/hero-mobile.webp"
+          alt="Duas mulheres sorindo"
+          fill
+          priority
+          className="object-cover object-top block md:hidden"
+        />
+        <Image
           src="/images/HERO-IMAGEM.webp"
           alt="Duas mulheres sorindo"
           fill
           priority
-          className="object-cover object-top md:object-[center_top] hero-bg-scale"
+          className="object-cover object-top md:object-[center_top] hero-bg-scale hidden md:block"
         />
       </div>
 
