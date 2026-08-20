@@ -33,9 +33,13 @@ export default function AuthoritySection() {
                 Quem cuida de você
               </p>
 
-              <h2 className="text-white text-[40px] md:text-[48px] lg:text-[64px] font-extrabold leading-[1.05] tracking-[-1px] mb-5">
+              <h2 className="text-white text-[40px] md:text-[48px] lg:text-[64px] font-extrabold leading-[1.05] tracking-[-1px] mb-2">
                 Dra. Verlaine<br />Micali
               </h2>
+
+              <p className="text-white/40 text-xs font-medium tracking-[0.18em] uppercase mb-5">
+                CRO-BA 9468
+              </p>
 
               <p className="text-white/80 text-lg md:text-[22px] lg:text-[28px] font-normal leading-snug mb-6">
                 O cuidado da Ortodontia aliada<br />à harmonia do seu rosto.
