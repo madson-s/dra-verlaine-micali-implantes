@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 md:gap-4 pb-2">
           <p className="text-white/60 text-xs font-medium">
-            CRO-BA 9468 — Responsável Técnica: Dra. Verlaine Micali
+            CNPJ 50.737.421/0001-78 · CRO-BA 9468 — Responsável Técnica: Dra. Verlaine Micali
           </p>
           <p className="text-white/50 text-xs md:text-right max-w-sm leading-relaxed">
             As informações contidas neste site têm caráter informativo e não substituem uma consulta presencial. Todo tratamento depende de avaliação clínica individual.
